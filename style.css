@@ -17,11 +17,24 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 20px;
+    font-size: 18px;
 }
 .c1 {
     grid-column: 1/2;
     grid-row: 1/4;
-    background: bisque;
+    background: hsl(31, 66%, 93%);
+    padding: 50px 20px;
+}
+.c1 h1 {
+    font-size: 400;
+    font-size: 30px;
+}
+.c1 h1 span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+.c1 img {
+    width: 200px;
 }
 .c2 {
     grid-column: 2/4;
