@@ -1,6 +1,17 @@
-
-
+@font-face {
+    font-family: "DM";
+    src: url('./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf');
+    font-weight: 100 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: "DM";
+    src: url('./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf');
+    font-weight: 100 900;
+    font-style: normal;
+}
 .cards {
+    font-family: "DM";
     display: grid;
     padding: 50px;
     grid-template-columns: repeat(4, 1fr);
